@@ -1,0 +1,380 @@
+[
+    {
+        "Name": "Amaranth leaves",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 14",
+        "Retail Price": "₹ 16 - 18",
+        "Shopping Mall": "₹ 17 - 23"
+    },
+    {
+        "Name": "Amla",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 85",
+        "Retail Price": "₹ 98 - 108",
+        "Shopping Mall": "₹ 102 - 140"
+    },
+    {
+        "Name": "Ash gourd",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 20",
+        "Retail Price": "₹ 23 - 25",
+        "Shopping Mall": "₹ 24 - 33"
+    },
+    {
+        "Name": "Baby corn",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 59",
+        "Retail Price": "₹ 68 - 75",
+        "Shopping Mall": "₹ 71 - 97"
+    },
+    {
+        "Name": "Banana flower",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 22",
+        "Retail Price": "₹ 25 - 28",
+        "Shopping Mall": "₹ 26 - 36"
+    },
+    {
+        "Name": "Beetroot",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 26",
+        "Retail Price": "₹ 30 - 33",
+        "Shopping Mall": "₹ 31 - 43"
+    },
+    {
+        "Name": "Bell Pepper (Capsicum)",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 49",
+        "Retail Price": "₹ 56 - 62",
+        "Shopping Mall": "₹ 59 - 81"
+    },
+    {
+        "Name": "Bitter gourd",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 29",
+        "Retail Price": "₹ 33 - 37",
+        "Shopping Mall": "₹ 35 - 48"
+    },
+    {
+        "Name": "Bottlegourd",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 20",
+        "Retail Price": "₹ 23 - 25",
+        "Shopping Mall": "₹ 24 - 33"
+    },
+    {
+        "Name": "Butter beans",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 46",
+        "Retail Price": "₹ 53 - 58",
+        "Shopping Mall": "₹ 55 - 76"
+    },
+    {
+        "Name": "Broad beans (Fava beans, lima beans)",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 36",
+        "Retail Price": "₹ 41 - 46",
+        "Shopping Mall": "₹ 43 - 59"
+    },
+    {
+        "Name": "Cabbage",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 25",
+        "Retail Price": "₹ 29 - 32",
+        "Shopping Mall": "₹ 30 - 41"
+    },
+    {
+        "Name": "Carrot",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 34",
+        "Retail Price": "₹ 39 - 43",
+        "Shopping Mall": "₹ 41 - 56"
+    },
+    {
+        "Name": "Cauliflower",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 26",
+        "Retail Price": "₹ 30 - 33",
+        "Shopping Mall": "₹ 31 - 43"
+    },
+    {
+        "Name": "Cluster beans",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 42",
+        "Retail Price": "₹ 48 - 53",
+        "Shopping Mall": "₹ 50 - 69"
+    },
+    {
+        "Name": "Coconut (fresh)",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 32",
+        "Retail Price": "₹ 37 - 41",
+        "Shopping Mall": "₹ 38 - 53"
+    },
+    {
+        "Name": "Colocasia leaves (Taro leaves)",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 14",
+        "Retail Price": "₹ 16 - 18",
+        "Shopping Mall": "₹ 17 - 23"
+    },
+    {
+        "Name": "Colocasia roots (Taro roots)",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 26",
+        "Retail Price": "₹ 30 - 33",
+        "Shopping Mall": "₹ 31 - 43"
+    },
+    {
+        "Name": "Coriander leaves (Cilantro)",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 11",
+        "Retail Price": "₹ 13 - 14",
+        "Shopping Mall": "₹ 13 - 18"
+    },
+    {
+        "Name": "Corn",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 30",
+        "Retail Price": "₹ 35 - 38",
+        "Shopping Mall": "₹ 36 - 50"
+    },
+    {
+        "Name": "Cucumber",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 22",
+        "Retail Price": "₹ 25 - 28",
+        "Shopping Mall": "₹ 26 - 36"
+    },
+    {
+        "Name": "Curry leaves",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 26",
+        "Retail Price": "₹ 30 - 33",
+        "Shopping Mall": "₹ 31 - 43"
+    },
+    {
+        "Name": "Dill leaves",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 10",
+        "Retail Price": "₹ 12 - 13",
+        "Shopping Mall": "₹ 12 - 17"
+    },
+    {
+        "Name": "Drumsticks",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 40",
+        "Retail Price": "₹ 46 - 51",
+        "Shopping Mall": "₹ 48 - 66"
+    },
+    {
+        "Name": "Eggplant (Brinjal or Aubergine)",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 25",
+        "Retail Price": "₹ 29 - 32",
+        "Shopping Mall": "₹ 30 - 41"
+    },
+    {
+        "Name": "Brinjal ( Big )",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 24",
+        "Retail Price": "₹ 28 - 30",
+        "Shopping Mall": "₹ 29 - 40"
+    },
+    {
+        "Name": "Elephant Yam",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 29",
+        "Retail Price": "₹ 33 - 37",
+        "Shopping Mall": "₹ 35 - 48"
+    },
+    {
+        "Name": "Fenugreek leaves",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 12",
+        "Retail Price": "₹ 14 - 15",
+        "Shopping Mall": "₹ 14 - 20"
+    },
+    {
+        "Name": "French Beans (Green beans)",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 43",
+        "Retail Price": "₹ 49 - 55",
+        "Shopping Mall": "₹ 52 - 71"
+    },
+    {
+        "Name": "Garlic",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 157",
+        "Retail Price": "₹ 181 - 199",
+        "Shopping Mall": "₹ 188 - 259"
+    },
+    {
+        "Name": "Ginger",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 109",
+        "Retail Price": "₹ 125 - 138",
+        "Shopping Mall": "₹ 131 - 180"
+    },
+    {
+        "Name": "Green chili",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 64",
+        "Retail Price": "₹ 74 - 81",
+        "Shopping Mall": "₹ 77 - 106"
+    },
+    {
+        "Name": "Green onion (Scallian or Spring onion)",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 46",
+        "Retail Price": "₹ 53 - 58",
+        "Shopping Mall": "₹ 55 - 76"
+    },
+    {
+        "Name": "Green peas",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 75",
+        "Retail Price": "₹ 86 - 95",
+        "Shopping Mall": "₹ 90 - 124"
+    },
+    {
+        "Name": "Ivy gourd",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 24",
+        "Retail Price": "₹ 28 - 30",
+        "Shopping Mall": "₹ 29 - 40"
+    },
+    {
+        "Name": "Lemon (Lime)",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 56",
+        "Retail Price": "₹ 64 - 71",
+        "Shopping Mall": "₹ 67 - 92"
+    },
+    {
+        "Name": "Mango",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 75",
+        "Retail Price": "₹ 86 - 95",
+        "Shopping Mall": "₹ 90 - 124"
+    },
+    {
+        "Name": "Mint leaves",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 5",
+        "Retail Price": "₹ 6 - 6",
+        "Shopping Mall": "₹ 6 - 8"
+    },
+    {
+        "Name": "Mushroom",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 81",
+        "Retail Price": "₹ 93 - 103",
+        "Shopping Mall": "₹ 97 - 134"
+    },
+    {
+        "Name": "Mustard leaves",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 15",
+        "Retail Price": "₹ 17 - 19",
+        "Shopping Mall": "₹ 18 - 25"
+    },
+    {
+        "Name": "Okra (Ladies finger)",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 21",
+        "Retail Price": "₹ 24 - 27",
+        "Shopping Mall": "₹ 25 - 35"
+    },
+    {
+        "Name": "Onion Big",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 35",
+        "Retail Price": "₹ 40 - 44",
+        "Shopping Mall": "₹ 42 - 58"
+    },
+    {
+        "Name": "Onion Small",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 50",
+        "Retail Price": "₹ 58 - 64",
+        "Shopping Mall": "₹ 60 - 83"
+    },
+    {
+        "Name": "Plantain (raw banana)",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 10",
+        "Retail Price": "₹ 12 - 13",
+        "Shopping Mall": "₹ 12 - 17"
+    },
+    {
+        "Name": "Potato",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 27",
+        "Retail Price": "₹ 31 - 34",
+        "Shopping Mall": "₹ 32 - 45"
+    },
+    {
+        "Name": "Pumpkin",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 21",
+        "Retail Price": "₹ 24 - 27",
+        "Shopping Mall": "₹ 25 - 35"
+    },
+    {
+        "Name": "Radish (Daikon)",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 21",
+        "Retail Price": "₹ 24 - 27",
+        "Shopping Mall": "₹ 25 - 35"
+    },
+    {
+        "Name": "Ridge gourd",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 30",
+        "Retail Price": "₹ 35 - 38",
+        "Shopping Mall": "₹ 36 - 50"
+    },
+    {
+        "Name": "Shallot (pearl onion)",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 35",
+        "Retail Price": "₹ 40 - 44",
+        "Shopping Mall": "₹ 42 - 58"
+    },
+    {
+        "Name": "Snake gourd",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 29",
+        "Retail Price": "₹ 33 - 37",
+        "Shopping Mall": "₹ 35 - 48"
+    },
+    {
+        "Name": "Sorrel leaves",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 12",
+        "Retail Price": "₹ 14 - 15",
+        "Shopping Mall": "₹ 14 - 20"
+    },
+    {
+        "Name": "Spinach",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 16",
+        "Retail Price": "₹ 18 - 20",
+        "Shopping Mall": "₹ 19 - 26"
+    },
+    {
+        "Name": "Sweet potato",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 37",
+        "Retail Price": "₹ 43 - 47",
+        "Shopping Mall": "₹ 44 - 61"
+    },
+    {
+        "Name": "Tomato",
+        "Unit": "Kg / Pcs",
+        "Market Price": "₹ 16",
+        "Retail Price": "₹ 18 - 20",
+        "Shopping Mall": "₹ 19 - 26"
+    }
+]
