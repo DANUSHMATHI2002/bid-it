@@ -5,8 +5,7 @@ import schedule
 import time
 import subprocess
 
-# Define a function to check and update data
-def check_and_update_data(url, output_file):
+def scrape_and_save_data(url, output_file):
     # Send an HTTP GET request to the URL
     response = requests.get(url)
 
@@ -16,8 +15,8 @@ def check_and_update_data(url, output_file):
         # Find the table containing the data
         table = soup.find("div", class_="Table")
 
-        # Initialize an empty dictionary to store the scraped data
-        data_dict = {}
+        # Initialize an empty list to store the scraped data
+        data = []
 
         # Find all rows in the table
         rows = table.find_all("div", class_="Row")
@@ -32,7 +31,7 @@ def check_and_update_data(url, output_file):
             retail_price = cells[3].text.strip()
             shopping_mall = cells[4].text.strip()
 
-            # Create a dictionary for the current item
+            # Create a dictionary for the current row
             item_info = {
                 "Name": name,
                 "Unit": unit,
@@ -41,41 +40,54 @@ def check_and_update_data(url, output_file):
                 "Shopping Mall": shopping_mall,
             }
 
-            # Add the item info to the data_dict
-            data_dict[name] = item_info
+            # Append the dictionary to the list
+            data.append(item_info)
 
-        # Check if the data has changed compared to the existing data
+        # Check if the data has changed compared to the existing JSON file
         update_needed = False
         try:
             with open(output_file, "r", encoding="utf-8") as json_file:
-                existing_data_dict = json.load(json_file)
+                existing_data = json.load(json_file)
 
-            for name, item_info in data_dict.items():
-                if name in existing_data_dict:
-                    if item_info != existing_data_dict[name]:
+            for item_info in data:
+                existing_item = next(
+                    (item for item in existing_data if item["Name"] == item_info["Name"]),
+                    None,
+                )
+                if existing_item:
+                    if existing_item["Market Price"] != item_info["Market Price"]:
                         update_needed = True
-                        print(f"Updating {name} in {output_file}")
-                        existing_data_dict[name] = item_info
-
-            if update_needed:
-                # Save the updated data to the JSON file
-                with open(output_file, "w", encoding="utf-8") as json_file:
-                    json.dump(existing_data_dict, json_file, ensure_ascii=False, indent=4)
-
-                # Commit and push changes to Git
-                commit_message = f"Update made in {name} in {output_file}"
-                subprocess.run(["git", "add", output_file])
-                subprocess.run(["git", "commit", output_file, "-m", commit_message])
-                subprocess.run(["git", "push"])
-            else:
-                print(f"No changes had been made in {output_file}")
+                        existing_item["Market Price"] = item_info["Market Price"]
 
         except FileNotFoundError:
-            # If the JSON file does not exist, create it with the scraped data
-            with open(output_file, "w", encoding="utf-8") as json_file:
-                json.dump(data_dict, json_file, ensure_ascii=False, indent=4)
+            update_needed = True
 
-            print(f"Data scraped and saved to {output_file}")
+        if update_needed:
+            # Save the updated data to the JSON file
+            with open(output_file, "w", encoding="utf-8") as json_file:
+                json.dump(existing_data, json_file, ensure_ascii=False, indent=4)
+
+            print(f"Data updated and saved to {output_file}")
+
+            # Commit and push changes to Git
+            commit_message = f"Update made in {output_file}"
+            subprocess.run(["git", "commit", output_file, "-m", commit_message])
+            subprocess.run(["git", "push"])
+
+            # Print the updates made
+            for item_info in data:
+                existing_item = next(
+                    (item for item in existing_data if item["Name"] == item_info["Name"]),
+                    None,
+                )
+                if existing_item:
+                    if existing_item["Market Price"] != item_info["Market Price"]:
+                        print(
+                            f"Updation done in {output_file} in {item_info['Name']} in Market Price"
+                        )
+
+        else:
+            print("No changes had been made")
 
     else:
         print(f"Failed to retrieve the webpage for {url}")
@@ -86,9 +98,9 @@ fruits_url = "https://market.todaypricerates.com/Tamil-Nadu-fruits-price"
 vegetables_output_file = "vegetable_data.json"
 fruits_output_file = "fruits_data.json"
 
-# Schedule the check_and_update_data function to run every minute
-schedule.every(1).minutes.do(check_and_update_data, vegetables_url, vegetables_output_file)
-schedule.every(1).minutes.do(check_and_update_data, fruits_url, fruits_output_file)
+# Schedule the scraping functions to run every minute
+schedule.every(1).minutes.do(scrape_and_save_data, vegetables_url, vegetables_output_file)
+schedule.every(1).minutes.do(scrape_and_save_data, fruits_url, fruits_output_file)
 
 # Run the scheduling loop
 while True:
